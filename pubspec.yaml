@@ -1,0 +1,42 @@
+name: seminario2
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http:
+  shared_preferences: ^2.5.3
+  audioplayers:
+  path_provider:
+  visibility_detector:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
+    - assets/img/
+    - assets/img/seccion_juegos/
+    - assets/img/menu_principal/
+    
+  fonts:
+    - family: OptimusPrinceps
+      fonts: 
+        - asset: assets/fonts/OptimusPrinceps.ttf
+        - asset: assets/fonts/OptimusPrincepsSemiBold.ttf
